@@ -1,5 +1,5 @@
 Review Exercise 2see https://controlc.com/8f732f61
-================= tea break will be at 2:45, exerixe then continues until 3:20 or later
+================= all my code to date is here: https://github.com/onionmccabbage/AEMJavaFeb2021
 In a new package, create a Java program called 'Review2'
 Ask the user to guess a random integer between 0-100
 They are allowed ten guesses, then tell them the answer

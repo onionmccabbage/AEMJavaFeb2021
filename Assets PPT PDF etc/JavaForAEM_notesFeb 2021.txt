@@ -1,0 +1,126 @@
+Java for AEM
+============
+Toby Dussek - Feb 2021
+
+10:00 start
+11:15 coffee
+12:30 lunch
+2:45 tea
+4:00 end
+
+Monday
+> welcome and intro
+> IDEs and tools: add the Java features to VS Code
+- Project structures
+> Java coding: types and identifiers
+- tools for compiling and for creating JAR files
+- Casting types
+- Other technologies in the AEM stack
+> after lunch review exercise
+  plenary: double or float, why it matters which folder you're in
+> collections of values: the Array data type
+> loops
+- maximum dimensions of data types
+- try-catch
+
+Useful Links
+https://www.jetbrains.com/idea/download/#section=windows
+https://www.tutorialspoint.com/java/index.htm
+
+Questions:
+- how can we manually clear the Java cache in VS Code
+  in command palette: Clear Editor History
+- fix the type-casting int to String
+  String.valueOf()
+- how to alter version of Java used by VSCode
+  https://devblogs.microsoft.com/java/java-on-visual-studio-code-update-november-2020/
+
+Tuesday
+> brief review
+> Java and AEM
+> Conditional operators
+- other collections
+> Abstraction and encapsulation 
+> non-runnable classes, modules and importing our own classes: modular architecture
+- promote types 
+- cast types   
+- Dynamic typing 
+> Classes, constructors, properties and methods
+- Scope and access modifiers
+- after lunch review exercise
+- JAR 
+
+Wednesday
+- check Aaliyah Java is ok within VS Code
+- Eclipse and IntelliJ
+- other providers of Java
+- brief review
+- debug
+- packages
+- How Java differs from JavaScript
+  - Data types, return types, encapsulation and inheritance
+- Working within the rigour of a strongly typed language
+- Method Definitions, Arguments and Return Types 
+- Overloading Methods and Method Invocations 
+- Make sure Eclipse is ready for rest of the course
+- AEM Maven Archetype
+- Class Inheritance 
+- Implementing Inheritance 
+- Casting and Inheritance 
+- The super variable 
+- Constructors and Inheritance 
+- after lunch review exercise
+  build a  class to calculate fibonacci sequence
+  extend this into a class usign specific values from Fib
+
+Thursday
+- Eclipse AEM archetype on my machine: C:\AEM64\demo\demosite
+- (NOTE you may NEVER NEED to do this to use AEM)
+- code examples - pass by ref pass by value
+- Strings are immutable
+- packages and the classpath
+- Inheritance, Polymorphism, Encapsulation, Composition, Interface
+Inheritance - child-parent relationship  -reuseable code, overload/overwrite hiding
+Polymorphism - use same method with different outcomes e.g. pet inc cat, dog, fish, aardvark return relevant stuff
+Encapsulate - different constructors to enable class to be used as needed. Default values (signature) access/mutator get/set
+Composition - class has objects as variables which compose it. Break down complexity into other objects. Combine lower level objects into a 
+higher order class
+ composition is preferred over inheritance.
+Inheritance base class must manage all the child classes - can rapidly become too many derived classes
+Composition - small encapsulated classes - granularity
+- Abstract classes, interfaces
+- The JCR
+- after lunch review exercise
+
+Friday
+- 'Bank Accounts' exercise
+- Packages: Declaring Packages, Role of the Classpath 
+- Encapsulation and Packages
+- JAR Files: populating Java Archive (JAR) files, examples from AEM
+- Constants, Enumerators and Arrays
+- Arrays - Creating arrays, Accessing Array Elements, Overview of AEM configuration collections
+- Exercise: build and use JAR files 
+- Optional extension matter
+- Running AEM from a JAR, exploring the Java structure, Nodes and the JCR
+- Ways to configure AEM: JAR-naming, command-line, XML, JSON, JCR nodes, admin-interface
+- debug and test
+- Error and Exception Handling 
+- Exception types in Java 
+- Java Functions 
+- Using Functional Interfaces 
+- Lambdas in Java 
+- Returning Functions
+- Make all my examples and presentation available for download
+- Optional Conclusion Exercise: Bringing it all together
+
+
+Online References for AEM and Sling:
+https://experienceleague.adobe.com/docs/?lang=en#experience-cloud
+https://helpx.adobe.com/experience-manager/how-to/use-packages.html?playlist=/services/playlist.helpx/products:SG_EXPERIENCEMANAGER/learn-path:intermediate/customer-role:developers/playlist:get-started/en_us.json&ref=helpx.adobe.com
+https://helpx.adobe.com/experience-manager/how-to/leverage-developer-toolset.html?playlist=/services/playlist.helpx/products:SG_EXPERIENCEMANAGER/learn-path:intermediate/customer-role:developers/playlist:get-started/en_us.json&ref=helpx.adobe.com
+https://helpx.adobe.com/experience-manager/how-to/get-started-with-sling.html?playlist=/services/playlist.helpx/products:SG_EXPERIENCEMANAGER/learn-path:intermediate/customer-role:developers/playlist:get-started-2/en_us.json&ref=helpx.adobe.com
+https://helpx.adobe.com/experience-manager/how-to/create-aem-project-using-maven-archetype.html?playlist=/services/playlist.helpx/products:SG_EXPERIENCEMANAGER/learn-path:intermediate/customer-role:developers/playlist:get-started-2/en_us.json&ref=helpx.adobe.com
+https://helpx.adobe.com/experience-manager/how-to/configure-development-environment.html?playlist=/services/playlist.helpx/products:SG_EXPERIENCEMANAGER/learn-path:intermediate/customer-role:developers/playlist:get-started/en_us.json&ref=helpx.adobe.com
+https://sling.apache.org/documentation/development/ide-tooling.html#content-navigator
+https://helpx.adobe.com/experience-manager/kt/index/aem-6-5-videos.html
+https://helpx.adobe.com/support/experience-manager/6-5.html
