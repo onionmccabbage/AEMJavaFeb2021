@@ -1,0 +1,26 @@
+Review Exercise 2see https://controlc.com/8f732f61
+================= tea break will be at 2:45, exerixe then continues until 3:20 or later
+In a new package, create a Java program called 'Review2'
+Ask the user to guess a random integer between 0-100
+They are allowed ten guesses, then tell them the answer
+Each guess should respond 'too high', 'too low' or 'correct'
+
+Architecture
+------------
+You can do this all in one Java file, or you could use two (or more) modules as you wish
+E.g. a module could encapsulate the engine to generate the random number, (and to say if it is odd or even)
+You would then use that module in a run-able Java program that actually plays the game
+
+Optional
+--------
+If the user types -1 then give hints such as 'even' or 'odd'
+If the user types -2 then tell them the answer and end the program
+Entering -3 should start a new game
+Store each guess in an array and at the end print out the guesses
+Find a way to let the user choose the game difficulty (0-100, 0-1000, 0-10000 etc)
+Maybe a separate (non-runable) module could encapsulate the game config, such as number of guesses, difficulty range
+and the array which stores the guesses as they are made
+
+NB cast something as an int like this:
+  int myint = (int) someNumber;
+
