@@ -1,0 +1,28 @@
+Java Review Exercise 1 https://controlc.com/f0dff272
+====================== until about 2:20-2:30 ish
+Use this as the basis of a short review exercise. Opportunities to screen-share code at the end!
+
+Create a new Java file called Review1
+Write the code needed for a runnable class called 'Review1'
+Import the Scanner class and declare a variable to hold an instance of the Scanner
+Within the 'main' method, declare two variables which will each hold a floating point number
+Populate these variables from values entered by the user using nextFloat()
+Also declare variables which will hold the difference, product and ratio of the two numbers
+					(     -	         *           /   )
+
+Print a line asking the user to enter two numbers
+Then use the scanner to grab the next two floating point numbers entered by the user
+Calculate the difference, product and ratio of the two numbers and store in your variables
+Print a nicely formatted statement showing the results
+Remember to close the scanner instance
+
+Compile and execute the program
+
+Optional
+--------
+Consider the two numbers to be the 'x' and 'y' values of a right-angled triangle
+Calculate and show the hypotenuse 'r':
+
+	r = Math.sqrt( (x*x)+(y*y) )
+
+So if x=3 and y=4 then r=5.0
