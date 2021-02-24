@@ -54,25 +54,24 @@ Wednesday
 - check Aaliyah Java is ok within VS Code
 - IntelliJ
 > other providers of Java
-- debug
+
 > packages
-- How Java differs from JavaScript
+> How Java differs from JavaScript ECMAScript or ES
   - Data types, return types, encapsulation and inheritance
 - Working within the rigour of a strongly typed language
-- Error and Exception Handling
-- Method Definitions, Arguments and Return Types 
-- Overloading Methods and Method Invocations 
+> Method Definitions, Arguments and Return Types 
+> Overloading Methods and Method Invocations 
 - AEM Maven Archetype
-- Class Inheritance 
-- Implementing Inheritance 
+> Class Inheritance 
+> Implementing Inheritance 
 - Casting and Inheritance 
-- The super variable 
-- Constructors and Inheritance 
+> The super variable 
+> Constructors and Inheritance 
 - after lunch review exercise
 - tools for compiling and for creating JAR files 
-
+- debug
+- Error and Exception Handling
 - other loops e.g. while, do-while
-
 
 Thursday
 - pass by ref pass by value

@@ -1,0 +1,35 @@
+Review Exercise 3 until 3:30 ish
+================= see https://controlc.com/26f6fa6e
+Build a suite of modules within packages to be used in customer-facing pages 
+  E.g. web pages, advertising or social media posts
+You top-level class should include basic "Page" properties such as "pageName" and "language"
+
+The constructors should accept values for the properties and you should provide getter/setter methods
+In the setter methods check that the provided value is not an empty string. If it is, provide default content
+
+Then extend the top-level class to declare classes for "HomePage" and "UserPage" where
+"HomePage" includes properties for "isLoggedIn" and "maxNumberOfAdverts" and
+"UserPage" includes properties for "userName" and "timeOutCountdown"
+Make decisions about what data types to use for properties and for method return-types
+
+Also implement "Default Page Content" and "Additional Page Content" properties as you see fit
+
+Write getter and setter methods for all the properties, and sanitize their values
+  E.g. "maxNumberOfAdverts" must be greater than zero (and maybe less than some maximum)
+
+Write two more methods, both called "extendContent". One should extend the existing content with some default text, 
+the other should accept additional content, to be added to the existing content
+
+You will need a run-able class to exercise your code and prove it works as intended
+  E.g. create instances of the page, home page, and user page with relevant properties
+
+Aim for DRY code and use final (constants) where appropriate
+
+Optional
+--------
+Use @Override to declare your own version of the toString() method, which should nicely print the instance details 
+Provide an array of advert names as a property of one of your classes (decide where this should be in the hierachy)
+  E.g. private String[] ads = {"Three", "EE", "Vodafone", "Orange"}
+Show these advert names in a print-out of the page details
+Limit the array to whatever is set as "maxNumberOfAdverts"
+Consider other properties we might know about a page visitor and find ways to include those data
