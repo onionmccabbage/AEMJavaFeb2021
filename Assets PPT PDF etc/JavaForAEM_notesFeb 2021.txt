@@ -13,8 +13,7 @@ Monday
 > IDEs and tools: add the Java features to VS Code
 - Project structures
 > Java coding: types and identifiers
-- tools for compiling and for creating JAR files
-- Casting types
+> Casting types
 - Other technologies in the AEM stack
 > after lunch review exercise
   plenary: double or float, why it matters which folder you're in
@@ -43,26 +42,26 @@ Tuesday
 > Abstraction and encapsulation 
 > non-runnable classes, modules and importing our own classes: modular architecture
 - promote types 
-- cast types   
+> cast types   
 - Dynamic typing 
 > Classes, constructors, properties and methods
 - Scope and access modifiers
-- after lunch review exercise
-- JAR 
+> after lunch review exercise
+> configure which version of Java to use
 
 Wednesday
-- check Aaliyah Java is ok within VS Code
-- Eclipse and IntelliJ
-- other providers of Java
 - brief review
+- check Aaliyah Java is ok within VS Code
+- IntelliJ
+> other providers of Java
 - debug
-- packages
+> packages
 - How Java differs from JavaScript
   - Data types, return types, encapsulation and inheritance
 - Working within the rigour of a strongly typed language
+- Error and Exception Handling
 - Method Definitions, Arguments and Return Types 
 - Overloading Methods and Method Invocations 
-- Make sure Eclipse is ready for rest of the course
 - AEM Maven Archetype
 - Class Inheritance 
 - Implementing Inheritance 
@@ -70,13 +69,13 @@ Wednesday
 - The super variable 
 - Constructors and Inheritance 
 - after lunch review exercise
-  build a  class to calculate fibonacci sequence
-  extend this into a class usign specific values from Fib
+- tools for compiling and for creating JAR files 
+
+- other loops e.g. while, do-while
+
 
 Thursday
-- Eclipse AEM archetype on my machine: C:\AEM64\demo\demosite
-- (NOTE you may NEVER NEED to do this to use AEM)
-- code examples - pass by ref pass by value
+- pass by ref pass by value
 - Strings are immutable
 - packages and the classpath
 - Inheritance, Polymorphism, Encapsulation, Composition, Interface
@@ -93,25 +92,19 @@ Composition - small encapsulated classes - granularity
 - after lunch review exercise
 
 Friday
-- 'Bank Accounts' exercise
 - Packages: Declaring Packages, Role of the Classpath 
 - Encapsulation and Packages
 - JAR Files: populating Java Archive (JAR) files, examples from AEM
 - Constants, Enumerators and Arrays
 - Arrays - Creating arrays, Accessing Array Elements, Overview of AEM configuration collections
 - Exercise: build and use JAR files 
-- Optional extension matter
-- Running AEM from a JAR, exploring the Java structure, Nodes and the JCR
-- Ways to configure AEM: JAR-naming, command-line, XML, JSON, JCR nodes, admin-interface
-- debug and test
-- Error and Exception Handling 
-- Exception types in Java 
-- Java Functions 
-- Using Functional Interfaces 
-- Lambdas in Java 
-- Returning Functions
-- Make all my examples and presentation available for download
-- Optional Conclusion Exercise: Bringing it all together
+- Optional extension matter@
+  - Running AEM from a JAR, exploring the Java structure, Nodes and the JCR
+  - Ways to configure AEM: JAR-naming, command-line, XML, JSON, JCR nodes, admin-interface
+  - debug and test
+  - Exception types in Java 
+
+> Make all my examples and presentation available for download
 
 
 Online References for AEM and Sling:
