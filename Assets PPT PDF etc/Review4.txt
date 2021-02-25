@@ -1,0 +1,48 @@
+Review 4 until until 2:55 ish
+======== see https://controlc.com/8be0acac
+Part 1:
+Explore try-catch, debug and loops, also data type conversion
+If your configuration allows it, create a package structure
+  e.g. namespace/review4 (or uk/co/bgl)
+Declare a runnable class that has three variables: 
+  one to hold a byte, one for an int and one to contain a double
+
+Set the int to an integer value entered by the user (import and use a Scanner)
+
+Convert the int to a byte and also to a double:
+  e.g. b = (byte) i;
+       d = (double) i;
+Use String.valueOf(i) to make a string from the integer
+
+In each case, print the integer, byte, string and/or double and see any changes to the printed value
+(It's worth including decimal values for non-integers)
+
+Part 2:
+Declare a boolean variable and set it's value to false
+Within a do-while loop ask the user to enter a value to be stored in byte variable (e.g. 1234)
+If the value entered is 0 then set the boolean flag to true and end the do-while loop
+For any other value, convert the entered byte to a double then an int and print the converted values (the loop continues)
+
+Wrap the code that asks for user input in a try{} block
+Also include a catch(Exception e){} block and a finally{} block
+Inside the catch block, print the exception
+Inside the finally block, close the scanner
+
+DO NOT THROW AN EXCEPTION IN THE CODE - instead, run the program and enter a letter instead of a number
+(By entering a letter when the system is expecting a number you will cause an exception)
+Observe the exception that is thrown when you enter a non-numeric value
+
+Put a break point in your code and debug it. Observer how it behaves as you step or continue
+(You may need to expleriment with where to put the break point)
+
+Optional
+--------
+Whenever the user enters a value, store that value as a String
+Then find a way to convert the string to a double, to a byte and to an int
+Handle exceptions for each of these conversion steps
+This next bit is tricky:
+Every time a value is entered by the user, store the new value in an array
+PROBLEM: Array size is fixed! So you need to create a fresh aray each time
+e.g. see https://programming.guide/java/array-append.html
+Print all the values that are in the array when the user enters 0 (i.e. your loop stops)
+
