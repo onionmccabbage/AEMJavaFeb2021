@@ -6,6 +6,8 @@ public class Page {
     protected String defaultContent;
     protected String additionalContent;
 
+    final String DEFAULT_CONTENT = "Default Page Name";
+
     public Page(String n, String l) {
         this.setPageName(n);
         this.setLanguage(l);
@@ -17,7 +19,7 @@ public class Page {
 
     public void setPageName(String newPageName) {
         if (newPageName == "") {
-            this.pageName = "Default Page Name";
+            this.pageName = DEFAULT_CONTENT;
         } else {
             this.pageName = newPageName;
         }
@@ -36,14 +38,14 @@ public class Page {
     }
 
     public void setDefaultPageContent(){
-        this.defaultContent = "default content";
+        this.defaultContent = DEFAULT_CONTENT;
     }
     public String getDefaultPageContent(){
         return this.defaultContent;
     }
     public void setAdditionalPageContent(String newContent){
         if(newContent ==""){
-            this.additionalContent = "additional content";
+            this.additionalContent = DEFAULT_CONTENT;
         } else {
             this.additionalContent = newContent;
         }

@@ -54,7 +54,6 @@ Wednesday
 - check Aaliyah Java is ok within VS Code
 - IntelliJ
 > other providers of Java
-
 > packages
 > How Java differs from JavaScript ECMAScript or ES
   - Data types, return types, encapsulation and inheritance
@@ -67,13 +66,15 @@ Wednesday
 - Casting and Inheritance 
 > The super variable 
 > Constructors and Inheritance 
-- after lunch review exercise
+> after lunch review exercise
 - tools for compiling and for creating JAR files 
 - debug
 - Error and Exception Handling
 - other loops e.g. while, do-while
 
 Thursday
+- JAR files
+- AEM stuff
 - pass by ref pass by value
 - Strings are immutable
 - packages and the classpath

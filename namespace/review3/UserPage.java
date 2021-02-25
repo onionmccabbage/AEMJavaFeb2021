@@ -31,7 +31,7 @@ public class UserPage extends Page {
     }
     @Override
     public String toString(){
-        String str = String.format("This User page is called %s, the language is %s\nThe username is %s and it times out after %d minutes", getPageName(), getLanguage(), getUserName(), getTimeOutCountdown());
+        String str = String.format("This User page is called %s, the language is %s\nThe username is %s and it times out after %d minutes", this.getPageName(), this.getLanguage(), this.getUserName(), this.getTimeOutCountdown());
         return str;
     }
 }
