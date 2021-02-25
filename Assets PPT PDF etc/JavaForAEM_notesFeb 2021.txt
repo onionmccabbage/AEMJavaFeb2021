@@ -68,15 +68,25 @@ Wednesday
 > Constructors and Inheritance 
 > after lunch review exercise
 - tools for compiling and for creating JAR files 
-- debug
-- Error and Exception Handling
-- other loops e.g. while, do-while
+> debug
+> Error and Exception Handling
+> other loops e.g. while, do-while
+
+
+Binary
+128/64/32/16/8421
+ 00000001 = 1
+ 00010101 = 21
+ 00111111 = 63 (one less than 64)
+
+8 digits on a byte
+11111111 = 255 (one less than 256)
 
 Thursday
-- JAR files
+> JAR files - try to install AEM via JAR
 - AEM stuff
 - pass by ref pass by value
-- Strings are immutable
+> Strings are immutable
 - packages and the classpath
 - Inheritance, Polymorphism, Encapsulation, Composition, Interface
 Inheritance - child-parent relationship  -reuseable code, overload/overwrite hiding
@@ -108,6 +118,7 @@ Friday
 
 
 Online References for AEM and Sling:
+https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/core/src/main/java/core/models/HelloWorldModel.java
 https://experienceleague.adobe.com/docs/?lang=en#experience-cloud
 https://helpx.adobe.com/experience-manager/how-to/use-packages.html?playlist=/services/playlist.helpx/products:SG_EXPERIENCEMANAGER/learn-path:intermediate/customer-role:developers/playlist:get-started/en_us.json&ref=helpx.adobe.com
 https://helpx.adobe.com/experience-manager/how-to/leverage-developer-toolset.html?playlist=/services/playlist.helpx/products:SG_EXPERIENCEMANAGER/learn-path:intermediate/customer-role:developers/playlist:get-started/en_us.json&ref=helpx.adobe.com

@@ -5,6 +5,11 @@ import java.util.Arrays;
 public class Conversion {
 
     public static void main(String[] args) {
+        // boolean flag = false;
+        // String s = "";
+        // byte b = 0;
+        // int i = 257;
+        // double d = 323.142;
         // Scanner input = new Scanner(System.in);
         // System.out.println("Enter an integer: ");
         // try {
@@ -34,7 +39,7 @@ public class Conversion {
         int i = 257;
         double d = 323.142;
         int[] arr = {}; // an empty array
-        while( flag == false ){
+        do {
             // store in a new array for each entered byte
             arr = Arrays.copyOf(arr, arr.length + 1);
             arr[arr.length - 1] = b;
@@ -47,6 +52,7 @@ public class Conversion {
                 }
             } catch (Exception e) {
                 System.out.println("Exception caught " + e);
+                flag = true;
             } finally {
                 // nothing to see here
             }
@@ -59,7 +65,7 @@ public class Conversion {
             System.out.println("\nConversion of byte to string.");
             s = String.valueOf(b);
             System.out.println("b and s " + b + " " + s);
-        }
+        } while( flag == false );
         in.close();
         // print the array
         for (int j=0; j<arr.length; j++){
