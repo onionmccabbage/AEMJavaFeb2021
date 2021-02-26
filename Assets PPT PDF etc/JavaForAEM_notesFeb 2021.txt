@@ -85,31 +85,33 @@ Thursday
 > try-catch
 
 Friday
-- brief review
+> brief review
 - IntelliJ Idea
-- look again at CRXDE i.e. the web interface - using JAR, also single/multi....
-- JAR Files: populating Java Archive (JAR) files, examples from AEM
-- Arrays - overview of AEM configuration collections
-- Enumerators
+> i.e. the web interface - using JAR, also single/multi....
+> JAR Files: populating Java Archive (JAR) files, examples from AEM
+> Arrays - overview of AEM configuration collections
+> Enumerators
 - Encapsulation and Packages
 - packages and the classpath
 - Inheritance, Polymorphism, Encapsulation, Composition, Interface
 Inheritance - child-parent relationship - reuseable code, overload/overwrite hiding
 Polymorphism - use same method with different outcomes e.g. pet inc cat, dog, fish, aardvark return relevant stuff
 Encapsulate - different constructors to enable class to be used as needed. Default values (signature) access/mutator get/set
-Composition - class has objects as variables which compose it. Break down complexity into other objects. Combine lower level objects into a 
-higher order class
+Composition - class has objects as variables which compose it. 
+Break down complexity into other objects. 
+Combine lower level objects into a higher order class
 Composition is preferred over inheritance.
 Inheritance base class must manage all the child classes - can rapidly become too many derived classes
 Composition - small encapsulated classes - granularity
-- Abstract classes, interfaces
+> Abstract classes, interfaces
 - Optional extension
-  - Running AEM from a JAR, exploring the structure, Nodes and the JCR
-  - Ways to configure AEM: JAR-naming, command-line, XML, JSON, JCR nodes, admin-interface
+  > Running AEM from a JAR, exploring the structure, Nodes and the JCR
+  > Ways to configure AEM: JAR-naming, command-line, XML, JSON, JCR nodes, admin-interface
   - debug and test
-  - Exceptions in Java 
+  > Exceptions in Java 
 - junit for unit testing Java. Also Mockito for creating mocks. What are the tools we use?
-> Make all my examples and presentation available for download
+> All my examples and presentation are available for download here: https://github.com/onionmccabbage/AEMJavaFeb2021
+  (will remain for at least two months)
 
 Online References for AEM and Sling:
 https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/core/src/main/java/core/models/HelloWorldModel.java

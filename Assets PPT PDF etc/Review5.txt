@@ -1,5 +1,6 @@
 Review Exrecise 5 see https://controlc.com/39c42a51
 ================= until 2:40
+>>>>> my solution is in the git repo now <<<<<<
 If possible, create a package hierchy for this project
 Separate code into modules containing your enums and classes and write one runnable class
 Spend a short time designing a structure to represent a brand, including (for example):
@@ -25,4 +26,4 @@ Optional
 Compare several instances and print only those that are comparable
 Also print those which are nearly comparable i.e. if the user is willing to accept slight differences then they should consider...
 Use jar to make all your compiled classes and enums into an archive
-  e.g. jav -cf out.jar c1.class c2.class c3.class ...
+  e.g. java -cf out.jar c1.class c2.class c3.class ...
