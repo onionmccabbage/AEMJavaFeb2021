@@ -1,11 +1,13 @@
 package namespace.review5;
 
 public class Brand {
+    public String brandName;
     public ImageAsset imageAsset;
     public FeaturesEnum[] features;
     public ConditionsEnum[] conditions;
     public Prices prices;
-    Brand(ImageAsset i, FeaturesEnum[] f, ConditionsEnum[] c, Prices p){
+    Brand(String b, ImageAsset i, FeaturesEnum[] f, ConditionsEnum[] c, Prices p){
+        this.brandName = b;
         this.imageAsset = i;
         this.features = f;
         this.conditions = c;

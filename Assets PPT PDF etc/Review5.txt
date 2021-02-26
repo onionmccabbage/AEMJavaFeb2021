@@ -8,6 +8,7 @@ Spend a short time designing a structure to represent a brand, including (for ex
 Decide on data-types for each of these properties
 Some will make good enums or classes, so write them in separate modules
 Some will be simple values such as String or double
+(You can use my starter-code in the github repository, but do think about the strucure and change mine as you see fit)
 
 Start small, with one enum or class then add others when the whole thing is working
 For the purposes of this exercise, it's a good idea to use the constructor to provide sensible default values
@@ -23,3 +24,5 @@ Optional
 --------
 Compare several instances and print only those that are comparable
 Also print those which are nearly comparable i.e. if the user is willing to accept slight differences then they should consider...
+Use jar to make all your compiled classes and enums into an archive
+  e.g. jav -cf out.jar c1.class c2.class c3.class ...
