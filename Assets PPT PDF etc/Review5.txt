@@ -1,9 +1,9 @@
-Review Exrecise 5
-=================
+Review Exrecise 5 see https://controlc.com/39c42a51
+================= until 2:40
 If possible, create a package hierchy for this project
 Separate code into modules containing your enums and classes and write one runnable class
 Spend a short time designing a structure to represent a brand, including (for example):
-  Brand name, logo image, prices(annual or monthly), features(legal-cover, discount, excess), blurb, 
+  Brand name, logo-image, prices(annual or monthly), features(legal-cover, discount, excess), blurb, 
   conditions(min-age, region, combine-with)
 Decide on data-types for each of these properties
 Some will make good enums or classes, so write them in separate modules

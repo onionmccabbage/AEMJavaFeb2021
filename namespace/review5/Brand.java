@@ -16,7 +16,7 @@ public class Brand {
 
     // comparable check
     boolean comparable(Brand b) {
-        if(b.features == this.features && b.conditions == this.conditions){
+        if(b.features == this.features && b.conditions == this.conditions && b.prices == this.prices){
             return true;
         }
         return false;
