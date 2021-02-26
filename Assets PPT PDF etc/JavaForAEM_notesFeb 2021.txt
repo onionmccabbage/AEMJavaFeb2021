@@ -107,9 +107,14 @@ Composition - small encapsulated classes - granularity
 - Optional extension
   > Running AEM from a JAR, exploring the structure, Nodes and the JCR
   > Ways to configure AEM: JAR-naming, command-line, XML, JSON, JCR nodes, admin-interface
-  - debug and test
+  > debug and test
   > Exceptions in Java 
-- junit for unit testing Java. Also Mockito for creating mocks. What are the tools we use?
+> junit for unit testing Java. Also Mockito for creating mocks. What are the tools we use?
+  JUnit https://junit.org/junit5/ also see https://www.tutorialspoint.com/junit/junit_test_framework.htm
+  Mockito see https://www.tutorialspoint.com/mockito/mockito_overview.htm
+  VSCode testing https://code.visualstudio.com/docs/java/java-testing
+  IntelliJ Idea testing https://www.jetbrains.com/help/idea/create-tests.html
+  Good overview of Java tesing best practices https://phauer.com/2019/modern-best-practices-testing-java/
 > All my examples and presentation are available for download here: https://github.com/onionmccabbage/AEMJavaFeb2021
   (will remain for at least two months)
 
