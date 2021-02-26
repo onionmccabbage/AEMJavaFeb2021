@@ -1,0 +1,25 @@
+Review Exrecise 5
+=================
+If possible, create a package hierchy for this project
+Separate code into modules containing your enums and classes and write one runnable class
+Spend a short time designing a structure to represent a brand, including (for example):
+  Brand name, logo image, prices(annual or monthly), features(legal-cover, discount, excess), blurb, 
+  conditions(min-age, region, combine-with)
+Decide on data-types for each of these properties
+Some will make good enums or classes, so write them in separate modules
+Some will be simple values such as String or double
+
+Start small, with one enum or class then add others when the whole thing is working
+For the purposes of this exercise, it's a good idea to use the constructor to provide sensible default values
+(Saves lots of typing when you make instances later)
+
+What does 'comparable' mean here? 
+Within your Brand class, write a function to return the equality of two instances, based on their property values
+
+In your runnable class, create two instances (or more)
+Compare the instances and print out the result
+
+Optional
+--------
+Compare several instances and print only those that are comparable
+Also print those which are nearly comparable i.e. if the user is willing to accept slight differences then they should consider...

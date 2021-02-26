@@ -11,111 +11,105 @@ Toby Dussek - Feb 2021
 Monday
 > welcome and intro
 > IDEs and tools: add the Java features to VS Code
-- Project structures
+> Project structures
 > Java coding: types and identifiers
 > Casting types
-- Other technologies in the AEM stack
+> Other technologies in the AEM stack
 > after lunch review exercise
   plenary: double or float, why it matters which folder you're in
 > collections of values: the Array data type
 > loops
-- maximum dimensions of data types
-- try-catch
+> maximum dimensions of data types
 
 Useful Links
 https://www.jetbrains.com/idea/download/#section=windows
 https://www.tutorialspoint.com/java/index.htm
 
 Questions:
-- how can we manually clear the Java cache in VS Code
+> how can we manually clear the Java cache in VS Code
   in command palette: Clear Editor History
-- fix the type-casting int to String
+> fix the type-casting int to String
   String.valueOf()
-- how to alter version of Java used by VSCode
+> how to alter version of Java used by VSCode
   https://devblogs.microsoft.com/java/java-on-visual-studio-code-update-november-2020/
 
 Tuesday
 > brief review
 > Java and AEM
 > Conditional operators
-- other collections
+> other collections
 > Abstraction and encapsulation 
 > non-runnable classes, modules and importing our own classes: modular architecture
-- promote types 
 > cast types   
-- Dynamic typing 
 > Classes, constructors, properties and methods
-- Scope and access modifiers
+> Scope and access modifiers
 > after lunch review exercise
 > configure which version of Java to use
 
 Wednesday
-- brief review
-- check Aaliyah Java is ok within VS Code
-- IntelliJ
+> brief review
 > other providers of Java
 > packages
 > How Java differs from JavaScript ECMAScript or ES
-  - Data types, return types, encapsulation and inheritance
-- Working within the rigour of a strongly typed language
+  > Data types, return types, encapsulation and inheritance
+> Working within the rigour of a strongly typed language
 > Method Definitions, Arguments and Return Types 
 > Overloading Methods and Method Invocations 
-- AEM Maven Archetype
+> AEM Maven Archetype
 > Class Inheritance 
 > Implementing Inheritance 
-- Casting and Inheritance 
+> Casting and Inheritance 
 > The super variable 
 > Constructors and Inheritance 
 > after lunch review exercise
-- tools for compiling and for creating JAR files 
+> tools for compiling and for creating JAR files 
 > debug
 > Error and Exception Handling
 > other loops e.g. while, do-while
-
 
 Binary
 128/64/32/16/8421
  00000001 = 1
  00010101 = 21
  00111111 = 63 (one less than 64)
-
-8 digits on a byte
+8 digits in a byte
 11111111 = 255 (one less than 256)
 
 Thursday
 > JAR files - try to install AEM via JAR
-- AEM stuff
-- pass by ref pass by value
+> AEM stuff
+> pass by ref pass by value
 > Strings are immutable
+> The JCR
+> after lunch review exercise
+> try-catch
+
+Friday
+- brief review
+- IntelliJ Idea
+- look again at CRXDE i.e. the web interface - using JAR, also single/multi....
+- JAR Files: populating Java Archive (JAR) files, examples from AEM
+- Arrays - overview of AEM configuration collections
+- Enumerators
+- Encapsulation and Packages
 - packages and the classpath
 - Inheritance, Polymorphism, Encapsulation, Composition, Interface
-Inheritance - child-parent relationship  -reuseable code, overload/overwrite hiding
+Inheritance - child-parent relationship - reuseable code, overload/overwrite hiding
 Polymorphism - use same method with different outcomes e.g. pet inc cat, dog, fish, aardvark return relevant stuff
 Encapsulate - different constructors to enable class to be used as needed. Default values (signature) access/mutator get/set
 Composition - class has objects as variables which compose it. Break down complexity into other objects. Combine lower level objects into a 
 higher order class
- composition is preferred over inheritance.
+Composition is preferred over inheritance.
 Inheritance base class must manage all the child classes - can rapidly become too many derived classes
 Composition - small encapsulated classes - granularity
 - Abstract classes, interfaces
-- The JCR
-- after lunch review exercise
-
-Friday
-- Packages: Declaring Packages, Role of the Classpath 
-- Encapsulation and Packages
-- JAR Files: populating Java Archive (JAR) files, examples from AEM
-- Constants, Enumerators and Arrays
-- Arrays - Creating arrays, Accessing Array Elements, Overview of AEM configuration collections
-- Exercise: build and use JAR files 
-- Optional extension matter@
-  - Running AEM from a JAR, exploring the Java structure, Nodes and the JCR
+- Optional extension
+  - Running AEM from a JAR, exploring the structure, Nodes and the JCR
   - Ways to configure AEM: JAR-naming, command-line, XML, JSON, JCR nodes, admin-interface
   - debug and test
-  - Exception types in Java 
-
+  - Exceptions in Java 
+- junit for unit testing Java. Also Mockito for creating mocks. What are the tools we use?
 > Make all my examples and presentation available for download
-
 
 Online References for AEM and Sling:
 https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/core/src/main/java/core/models/HelloWorldModel.java
